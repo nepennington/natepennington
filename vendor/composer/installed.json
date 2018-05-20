@@ -1709,6 +1709,231 @@
         "description": "Composer Plugin for updating the Drupal scaffold files when using drupal/core"
     },
     {
+        "name": "drupal/admin_toolbar",
+        "version": "1.23.0",
+        "version_normalized": "1.23.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/admin_toolbar",
+            "reference": "8.x-1.23"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.23.zip",
+            "reference": "8.x-1.23",
+            "shasum": "46d7ed18a9154c35e765ae43ce43aa292c025d65"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.23",
+                "datestamp": "1517936581",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Mohamed Anis Taktak",
+                "homepage": "https://www.drupal.org/u/matio89"
+            },
+            {
+                "name": "adriancid",
+                "homepage": "https://www.drupal.org/user/1962106"
+            },
+            {
+                "name": "bolbol",
+                "homepage": "https://www.drupal.org/user/3400070"
+            },
+            {
+                "name": "eme",
+                "homepage": "https://www.drupal.org/user/542492"
+            },
+            {
+                "name": "fethi.krout",
+                "homepage": "https://www.drupal.org/user/3206765"
+            },
+            {
+                "name": "matio89",
+                "homepage": "https://www.drupal.org/user/2320090"
+            },
+            {
+                "name": "romainj",
+                "homepage": "https://www.drupal.org/user/370706"
+            }
+        ],
+        "description": "Admin Toolbar improve the default Drupal Toolbar, it lets the hover of sub menus.",
+        "homepage": "http://drupal.org/project/admin_toolbar",
+        "support": {
+            "source": "http://cgit.drupalcode.org/admin_toolbar",
+            "issues": "https://www.drupal.org/project/issues/admin_toolbar"
+        }
+    },
+    {
+        "name": "drupal/auto_entitylabel",
+        "version": "2.1.0-beta1",
+        "version_normalized": "2.1.0.0-beta1",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/auto_entitylabel",
+            "reference": "8.x-2.1-beta1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/auto_entitylabel-8.x-2.1-beta1.zip",
+            "reference": "8.x-2.1-beta1",
+            "shasum": "94a77f55896744075ff21bc2bdfab91308a69a27"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-2.x": "2.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-2.1-beta1",
+                "datestamp": "1510484584",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Beta releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Pravin Ajaaz",
+                "homepage": "https://www.drupal.org/user/2910049"
+            },
+            {
+                "name": "RenatoG",
+                "homepage": "https://www.drupal.org/user/3326031"
+            },
+            {
+                "name": "bforchhammer",
+                "homepage": "https://www.drupal.org/user/216396"
+            },
+            {
+                "name": "purushotam.rai",
+                "homepage": "https://www.drupal.org/user/3193859"
+            }
+        ],
+        "description": "Allows hiding of entity label fields and automatic label creation.",
+        "homepage": "https://www.drupal.org/project/auto_entitylabel",
+        "support": {
+            "source": "http://cgit.drupalcode.org/auto_entitylabel",
+            "issues": "https://www.drupal.org/project/issues/auto_entitylabel"
+        }
+    },
+    {
+        "name": "drupal/block_class",
+        "version": "1.0.0-alpha1",
+        "version_normalized": "1.0.0.0-alpha1",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/block_class",
+            "reference": "8.x-1.0-alpha1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/block_class-8.x-1.0-alpha1.zip",
+            "reference": "8.x-1.0-alpha1",
+            "shasum": "194cd52210ea2e0e5dbbd34fad4528d500424430"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-alpha1",
+                "datestamp": "1475623439",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Alpha releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Aaron Stanush",
+                "homepage": "https://www.drupal.org/user/89718"
+            },
+            {
+                "name": "DYdave",
+                "homepage": "https://www.drupal.org/user/467284"
+            },
+            {
+                "name": "Four Kitchens",
+                "homepage": "https://www.drupal.org/user/358502"
+            },
+            {
+                "name": "RenatoG",
+                "homepage": "https://www.drupal.org/user/3326031"
+            },
+            {
+                "name": "Todd Nienkerk",
+                "homepage": "https://www.drupal.org/user/92096"
+            },
+            {
+                "name": "berenddeboer",
+                "homepage": "https://www.drupal.org/user/143552"
+            },
+            {
+                "name": "elliotttf",
+                "homepage": "https://www.drupal.org/user/61601"
+            },
+            {
+                "name": "mirzu",
+                "homepage": "https://www.drupal.org/user/7710"
+            },
+            {
+                "name": "patrickcoffeyo",
+                "homepage": "https://www.drupal.org/user/2837945"
+            },
+            {
+                "name": "pcoffey",
+                "homepage": "https://www.drupal.org/user/1595818"
+            },
+            {
+                "name": "tsmith512",
+                "homepage": "https://www.drupal.org/user/2031446"
+            }
+        ],
+        "description": "Allows assigning classes to Blocks",
+        "homepage": "https://www.drupal.org/project/block_class",
+        "support": {
+            "source": "http://cgit.drupalcode.org/block_class"
+        }
+    },
+    {
         "name": "drupal/bootstrap",
         "version": "3.11.0",
         "version_normalized": "3.11.0.0",
@@ -1773,6 +1998,113 @@
             "docs": "https://drupal-bootstrap.org",
             "issues": "https://www.drupal.org/project/issues/bootstrap",
             "irc": "irc://irc.freenode.org/drupal-bootstrap"
+        }
+    },
+    {
+        "name": "drupal/bootstrap_layouts",
+        "version": "5.1.0",
+        "version_normalized": "5.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/bootstrap_layouts",
+            "reference": "8.x-5.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/bootstrap_layouts-8.x-5.1.zip",
+            "reference": "8.x-5.1",
+            "shasum": "b304b1c9d0ea30646e6dff7aa32405a21a11d49f"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-5.x": "5.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-5.1",
+                "datestamp": "1516598286",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "darol100",
+                "homepage": "https://www.drupal.org/user/2667123"
+            },
+            {
+                "name": "hctom",
+                "homepage": "https://www.drupal.org/user/112790"
+            },
+            {
+                "name": "markcarver",
+                "homepage": "https://www.drupal.org/user/501638"
+            }
+        ],
+        "description": "This module is going to generate layouts with Bootstrap grid system.",
+        "homepage": "https://www.drupal.org/project/bootstrap_layouts",
+        "support": {
+            "source": "http://cgit.drupalcode.org/bootstrap_layouts"
+        }
+    },
+    {
+        "name": "drupal/bootstrap_library",
+        "version": "1.11.0",
+        "version_normalized": "1.11.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/bootstrap_library",
+            "reference": "8.x-1.11"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/bootstrap_library-8.x-1.11.zip",
+            "reference": "8.x-1.11",
+            "shasum": "af90c93e08223bff8359f5a6789d1cd5cc6ffe70"
+        },
+        "require": {
+            "drupal/core": "~8.0",
+            "twbs/bootstrap": "4.1.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.11",
+                "datestamp": "1525127580",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "hatuhay",
+                "homepage": "https://www.drupal.org/user/827704"
+            }
+        ],
+        "description": "Provides Bootstrap Integration.",
+        "homepage": "http://drupal.org/project/bootstrap_library",
+        "support": {
+            "source": "http://cgit.drupalcode.org/bootstrap_library"
         }
     },
     {
@@ -6749,6 +7081,59 @@
         ],
         "description": "Symfony Yaml Component",
         "homepage": "https://symfony.com"
+    },
+    {
+        "name": "twbs/bootstrap",
+        "version": "v4.1.0",
+        "version_normalized": "4.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twbs/bootstrap.git",
+            "reference": "8f7bd419935adfcd53c471a0202083464800619e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twbs/bootstrap/zipball/8f7bd419935adfcd53c471a0202083464800619e",
+            "reference": "8f7bd419935adfcd53c471a0202083464800619e",
+            "shasum": ""
+        },
+        "replace": {
+            "twitter/bootstrap": "self.version"
+        },
+        "time": "2018-04-09T16:00:23+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jacob Thornton",
+                "email": "jacobthornton@gmail.com"
+            },
+            {
+                "name": "Mark Otto",
+                "email": "markdotto@gmail.com"
+            }
+        ],
+        "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+        "homepage": "https://getbootstrap.com/",
+        "keywords": [
+            "JS",
+            "css",
+            "framework",
+            "front-end",
+            "mobile-first",
+            "responsive",
+            "sass",
+            "web"
+        ]
     },
     {
         "name": "twig/twig",
