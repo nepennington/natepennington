@@ -1,0 +1,19 @@
+uuid: b6bc667b-a45d-454d-83e8-e80be2601547
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_artist
+    - node.type.event
+id: node.event.field_artist
+field_name: field_artist
+entity_type: node
+bundle: event
+label: Artist
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

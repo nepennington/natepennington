@@ -1,0 +1,31 @@
+uuid: 876b89f6-3623-4362-96bd-0ce42826efe6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7ff3a47d-fefe-4b62-96dd-a30a4694d713'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: open_framework_music_block_3
+theme: bartik
+region: featured_bottom_third
+weight: 0
+provider: null
+plugin: 'block_content:7ff3a47d-fefe-4b62-96dd-a30a4694d713'
+settings:
+  id: 'block_content:7ff3a47d-fefe-4b62-96dd-a30a4694d713'
+  label: 'follow nate on facebook'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
+    context_mapping: {  }

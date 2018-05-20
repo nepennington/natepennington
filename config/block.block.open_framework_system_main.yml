@@ -1,0 +1,20 @@
+uuid: 4e19b763-3b6a-47ae-8fd3-eeeddd80cdea
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - open_framework
+id: open_framework_system_main
+theme: open_framework
+region: ''
+weight: -12
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  provider: system
+  label_display: '0'
+visibility: {  }

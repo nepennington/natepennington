@@ -1,0 +1,22 @@
+uuid: 36699b23-789c-4365-b487-dde36b897e96
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.twitter_window
+  module:
+    - text
+id: node.twitter_window.body
+field_name: body
+entity_type: node
+bundle: twitter_window
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

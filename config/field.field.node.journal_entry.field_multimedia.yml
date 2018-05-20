@@ -1,0 +1,25 @@
+uuid: 35569547-2bcc-44a8-9175-ac284da6c4c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_multimedia
+    - node.type.journal_entry
+  module:
+    - video_embed_field
+id: node.journal_entry.field_multimedia
+field_name: field_multimedia
+entity_type: node
+bundle: journal_entry
+label: multimedia
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube: youtube
+    vimeo: vimeo
+    youtube_playlist: '0'
+field_type: video_embed_field

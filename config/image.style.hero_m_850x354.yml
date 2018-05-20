@@ -1,0 +1,22 @@
+uuid: 4916d2bb-5104-4946-adb7-4ca1fa30c455
+langcode: en
+status: true
+dependencies: {  }
+name: hero_m_850x354
+label: 'Hero M 850x354'
+effects:
+  95194ede-dabc-4b13-9efc-22b6525cb595:
+    uuid: 95194ede-dabc-4b13-9efc-22b6525cb595
+    id: image_crop
+    weight: 2
+    data:
+      width: 850
+      height: 354
+      anchor: center-center
+  7b77774c-af7f-4902-99cd-5e28ede08f0f:
+    uuid: 7b77774c-af7f-4902-99cd-5e28ede08f0f
+    id: image_resize
+    weight: 1
+    data:
+      width: 1680
+      height: 700

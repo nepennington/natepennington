@@ -1,0 +1,14 @@
+uuid: 610ada68-8da2-4a4d-98bd-77874ee2ceae
+langcode: en
+status: true
+dependencies: {  }
+name: stamp_sized
+label: stamp_sized
+effects:
+  e0092870-7b23-40bb-8b63-bd07d6ae1b76:
+    uuid: e0092870-7b23-40bb-8b63-bd07d6ae1b76
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 50
+      height: 50

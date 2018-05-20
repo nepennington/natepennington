@@ -1,0 +1,14 @@
+uuid: 66d5adf6-63aa-4c1c-a5f0-9496292ebe32
+langcode: en
+status: true
+dependencies: {  }
+name: 4_3_xl_720x540
+label: '4:3 XL 720x540'
+effects:
+  84fac964-0dde-42e0-b27c-f8787e3f3079:
+    uuid: 84fac964-0dde-42e0-b27c-f8787e3f3079
+    id: image_resize
+    weight: 1
+    data:
+      width: 720
+      height: 540

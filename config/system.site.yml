@@ -1,14 +1,14 @@
-uuid: 010033cb-eb1b-464c-8f21-777c5a5ce6ea
+uuid: 0b594007-9886-48ad-b2a4-71c511a8a130
 name: natepennington
-mail: nepennington@gmail.com
+mail: noreply@natepennington.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/13
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
 default_langcode: en
 _core:
-  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

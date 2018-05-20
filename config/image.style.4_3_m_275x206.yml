@@ -1,0 +1,14 @@
+uuid: 7dbf74a4-48b3-4c8d-8a65-a85b7be8f051
+langcode: en
+status: true
+dependencies: {  }
+name: 4_3_m_275x206
+label: '4:3 M 275x206'
+effects:
+  bcf4a2c7-51b0-45d0-8408-c9aedf0f737c:
+    uuid: bcf4a2c7-51b0-45d0-8408-c9aedf0f737c
+    id: image_resize
+    weight: 1
+    data:
+      width: 275
+      height: 206

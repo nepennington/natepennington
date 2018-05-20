@@ -1,0 +1,24 @@
+_core:
+  default_config_hash: _5qrDuRmWmRVjW00si3U1s1NrgrocA4N653EYGRfgEE
+schemas:
+  bootstrap: 8000
+  bootstrap_subtheme: 8000
+fluid_container: 0
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: 'public://images/images-favicon/favicon.ico'
+  url: 'http://dev-d8natepennington.pantheonsite.io/sites/default/files/favicon.ico'
+  use_default: false
+features:
+  comment_user_picture: false
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+  logo: true
+  name: false
+  slogan: false
+logo:
+  path: 'public://natepennington-logo-trans_2.png'
+  url: 'http://dev-d8natepennington.pantheonsite.io/sites/default/files/images/natepennington-logo.png'
+  use_default: false
+table: ''

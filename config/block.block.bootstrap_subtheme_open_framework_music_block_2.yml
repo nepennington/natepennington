@@ -1,0 +1,35 @@
+uuid: 59ee7ea0-24b3-4c0b-984e-1bbfc6f05887
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:77f776dc-795f-419a-a610-6c71d9416ae9'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - bootstrap_subtheme
+third_party_settings:
+  block_class:
+    classes: 'col-lg-4 col-md-6 col-sm-12'
+id: bootstrap_subtheme_open_framework_music_block_2
+theme: bootstrap_subtheme
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:77f776dc-795f-419a-a610-6c71d9416ae9'
+settings:
+  id: 'block_content:77f776dc-795f-419a-a610-6c71d9416ae9'
+  label: 'latest tweets'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
+    context_mapping: {  }

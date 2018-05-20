@@ -1,0 +1,28 @@
+uuid: 2e2bde82-465c-44c3-ac7c-5d5bb84848f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.slideshow_hero_image.body
+    - node.type.slideshow_hero_image
+  module:
+    - text
+    - user
+id: node.slideshow_hero_image.teaser
+targetEntityType: node
+bundle: slideshow_hero_image
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

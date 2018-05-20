@@ -1,0 +1,14 @@
+uuid: 26c417f1-8a07-4003-919e-690616a1f9c7
+langcode: en
+status: true
+dependencies: {  }
+name: 4_3_s_160x90
+label: '4:3 S 160x90'
+effects:
+  af18f08e-15cd-4bfa-8bdc-5b9f5a20d776:
+    uuid: af18f08e-15cd-4bfa-8bdc-5b9f5a20d776
+    id: image_resize
+    weight: 1
+    data:
+      width: 260
+      height: 90

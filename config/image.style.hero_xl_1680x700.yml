@@ -1,0 +1,14 @@
+uuid: 3c424553-58aa-4e16-8b2d-604e8a3c558d
+langcode: en
+status: true
+dependencies: {  }
+name: hero_xl_1680x700
+label: 'Hero XL 1680x700'
+effects:
+  a138b04a-db3b-44d8-9297-4f48203a108e:
+    uuid: a138b04a-db3b-44d8-9297-4f48203a108e
+    id: image_resize
+    weight: 1
+    data:
+      width: 1680
+      height: 700

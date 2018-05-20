@@ -1,0 +1,34 @@
+uuid: 3329be50-7ad2-41ef-af34-df7371061561
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.journal_entry.body
+    - field.field.node.journal_entry.comment_node_journal_entry
+    - field.field.node.journal_entry.field_image
+    - node.type.journal_entry
+  module:
+    - text
+    - user
+id: node.journal_entry.teaser
+targetEntityType: node
+bundle: journal_entry
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  comment_node_journal_entry: true
+  field_image: true

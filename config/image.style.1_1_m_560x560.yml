@@ -1,0 +1,14 @@
+uuid: 1919109a-5c39-429c-9a6d-62ad6de14ff9
+langcode: en
+status: true
+dependencies: {  }
+name: 1_1_m_560x560
+label: '1:1 M 560x560'
+effects:
+  fa732403-d5b7-4005-8218-13e1c72446d6:
+    uuid: fa732403-d5b7-4005-8218-13e1c72446d6
+    id: image_resize
+    weight: 1
+    data:
+      width: 560
+      height: 560

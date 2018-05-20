@@ -1,0 +1,37 @@
+uuid: 75f77809-8573-4eb5-b667-fa29aca17077
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - instagram_block
+    - system
+  theme:
+    - bootstrap_subtheme
+third_party_settings:
+  block_class:
+    classes: 'col-lg-4 col-md-6 col-sm-12'
+id: bootstrap_subtheme_instagramblock
+theme: bootstrap_subtheme
+region: content
+weight: -6
+provider: null
+plugin: instagram_block_block
+settings:
+  id: instagram_block_block
+  label: 'nate on instagram'
+  provider: instagram_block
+  label_display: visible
+  user_id: '1520575975'
+  count: 9
+  width: 110
+  height: 110
+  img_resolution: thumbnail
+  cache_time_minutes: 1440
+  access_token: 1520575975.5ad0821.989d74cac8af4b5c9142b59166a8097a
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

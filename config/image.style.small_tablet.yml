@@ -1,0 +1,14 @@
+uuid: b92e2044-deda-4ac0-b07c-87b3587081f5
+langcode: en
+status: true
+dependencies: {  }
+name: small_tablet
+label: 'Small Tablet'
+effects:
+  4aabfd3d-26ab-484b-ae7f-29edda5ebe41:
+    uuid: 4aabfd3d-26ab-484b-ae7f-29edda5ebe41
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 270

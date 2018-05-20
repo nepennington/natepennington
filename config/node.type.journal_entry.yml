@@ -1,0 +1,17 @@
+uuid: 176cfe90-0a11-4f13-a7c2-fdd0b44dd32d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    parent: ''
+    available_menus: {  }
+name: 'Journal entry'
+type: journal_entry
+description: 'Content that will display as part of our Journal'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,22 @@
+uuid: 938d6d15-c1b4-4cbe-b380-691adb879361
+langcode: en
+status: true
+dependencies: {  }
+name: hero_l_1200x500
+label: 'Hero L 1200x500'
+effects:
+  8f08d330-c489-4c24-9c92-d9f0907a3ad2:
+    uuid: 8f08d330-c489-4c24-9c92-d9f0907a3ad2
+    id: image_crop
+    weight: 2
+    data:
+      width: 1200
+      height: 500
+      anchor: center-center
+  2295a80d-f935-4db6-8827-e1d31f8923f0:
+    uuid: 2295a80d-f935-4db6-8827-e1d31f8923f0
+    id: image_resize
+    weight: 1
+    data:
+      width: 1200
+      height: 500

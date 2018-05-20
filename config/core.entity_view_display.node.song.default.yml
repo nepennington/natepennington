@@ -1,0 +1,77 @@
+uuid: eb3b1480-be93-4300-ac60-c7926bb8df18
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.song.body
+    - field.field.node.song.field_image
+    - field.field.node.song.field_meta_tags
+    - field.field.node.song.field_soundcloud_song_link
+    - field.field.node.song.field_yoast_seo
+    - node.type.song
+  module:
+    - image
+    - metatag
+    - soundcloudfield
+    - text
+    - user
+id: node.song.default
+targetEntityType: node
+bundle: song
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_meta_tags:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
+  field_soundcloud_song_link:
+    weight: 103
+    label: above
+    settings:
+      soundcloud_player_type: classic
+      soundcloud_player_width: 100
+      soundcloud_player_height: 166
+      soundcloud_player_height_sets: 450
+      soundcloud_player_visual_height: 450
+      soundcloud_player_autoplay: ''
+      soundcloud_player_color: ff7700
+      soundcloud_player_hiderelated: ''
+      soundcloud_player_showartwork: ''
+      soundcloud_player_showcomments: true
+      soundcloud_player_showplaycount: ''
+    third_party_settings: {  }
+    type: soundcloud_default
+    region: content
+  field_yoast_seo:
+    weight: 105
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

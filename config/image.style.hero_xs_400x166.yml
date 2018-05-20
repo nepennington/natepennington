@@ -1,0 +1,22 @@
+uuid: c5d2dade-5b5c-4f22-9c2a-a3fbe81e31a0
+langcode: en
+status: true
+dependencies: {  }
+name: hero_xs_400x166
+label: 'Hero XS 400x166'
+effects:
+  4252e043-f2ee-4f4c-ac18-adada989bf3a:
+    uuid: 4252e043-f2ee-4f4c-ac18-adada989bf3a
+    id: image_resize
+    weight: 1
+    data:
+      width: 720
+      height: 300
+  74af558f-e5d3-4e20-9b4c-374163c69ebc:
+    uuid: 74af558f-e5d3-4e20-9b4c-374163c69ebc
+    id: image_crop
+    weight: 2
+    data:
+      width: 720
+      height: 166
+      anchor: center-center

@@ -1,0 +1,104 @@
+uuid: 4f2dc133-bec6-4446-81aa-ec65a4c2ff52
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.journal_entry.body
+    - field.field.node.journal_entry.comment_node_journal_entry
+    - field.field.node.journal_entry.field_image
+    - field.field.node.journal_entry.field_meta_tags
+    - field.field.node.journal_entry.field_multimedia
+    - field.field.node.journal_entry.field_yoast_seo
+    - image.style.thumbnail
+    - node.type.journal_entry
+  module:
+    - ds
+    - field_formatter_class
+    - image
+    - metatag
+    - text
+    - user
+    - video_embed_field
+third_party_settings:
+  ds:
+    layout:
+      id: layout_onecol
+      library: layout_discovery/onecol
+      disable_css: false
+      entity_classes: all_classes
+      settings: {  }
+    regions:
+      content:
+        - node_title
+        - field_image
+        - body
+        - links
+        - field_multimedia
+        - node_post_date
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 0
+        label: hidden
+        formatter: default
+      node_post_date:
+        plugin_id: node_post_date
+        weight: 105
+        label: inline
+        formatter: ds_post_date_long
+id: node.journal_entry.default
+targetEntityType: node
+bundle: journal_entry
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 100
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    type: image
+    region: content
+  field_meta_tags:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
+  field_multimedia:
+    weight: 103
+    label: visually_hidden
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+  field_yoast_seo:
+    weight: 105
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 102
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  comment_node_journal_entry: true

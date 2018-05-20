@@ -1,0 +1,18 @@
+uuid: 9dcdf939-0bdf-43d0-a6b0-6110ea2893d6
+langcode: en
+status: false
+dependencies:
+  theme:
+    - selectivizr
+id: selectivizr_menu_menu_social_links
+theme: selectivizr
+region: ''
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu-social-links'
+settings:
+  id: broken
+  label: '<none>'
+  provider: core
+  label_display: visible
+visibility: {  }

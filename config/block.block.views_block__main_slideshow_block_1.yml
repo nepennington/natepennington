@@ -1,0 +1,24 @@
+uuid: 5be3562d-6c7d-4a05-9118-c7d72addcf45
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.main_slideshow
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__main_slideshow_block_1
+theme: bartik
+region: highlighted
+weight: 0
+provider: null
+plugin: 'views_block:main_slideshow-block_1'
+settings:
+  id: 'views_block:main_slideshow-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

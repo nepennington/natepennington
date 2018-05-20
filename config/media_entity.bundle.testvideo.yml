@@ -1,0 +1,12 @@
+uuid: eac3bcaa-301b-4910-859e-d35ade7d8126
+langcode: en
+status: true
+dependencies: {  }
+id: testvideo
+label: test
+description: ''
+type: generic
+queue_thumbnail_downloads: false
+new_revision: false
+type_configuration: {  }
+field_map: {  }

@@ -1,0 +1,21 @@
+uuid: 73d8e1ae-c136-43c2-a7bc-7ab0e5aa587d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta_tags
+    - node.type.artist
+  module:
+    - metatag
+id: node.artist.field_meta_tags
+field_name: field_meta_tags
+entity_type: node
+bundle: artist
+label: 'Meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

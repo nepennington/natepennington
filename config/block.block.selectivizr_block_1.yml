@@ -1,0 +1,25 @@
+uuid: 924102aa-0092-40df-abe8-a342a4872d00
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:38e06af9-3de0-407e-b020-23792d524ab0'
+  module:
+    - block_content
+  theme:
+    - selectivizr
+id: selectivizr_block_1
+theme: selectivizr
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:38e06af9-3de0-407e-b020-23792d524ab0'
+settings:
+  id: 'block_content:38e06af9-3de0-407e-b020-23792d524ab0'
+  label: '<none>'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

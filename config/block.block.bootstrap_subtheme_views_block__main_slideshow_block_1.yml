@@ -1,0 +1,28 @@
+uuid: d1df6566-f155-4ad3-b343-2510af72cad6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.main_slideshow
+  module:
+    - block_class
+    - views
+  theme:
+    - bootstrap_subtheme
+third_party_settings:
+  block_class:
+    classes: ''
+id: bootstrap_subtheme_views_block__main_slideshow_block_1
+theme: bootstrap_subtheme
+region: content
+weight: -12
+provider: null
+plugin: 'views_block:main_slideshow-block_1'
+settings:
+  id: 'views_block:main_slideshow-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

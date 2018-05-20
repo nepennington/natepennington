@@ -1,0 +1,6 @@
+status: '0'
+pattern: ''
+php: 0
+dependencies:
+  config:
+    - block.block.bartik_page_title

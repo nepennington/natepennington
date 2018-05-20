@@ -1,0 +1,14 @@
+uuid: f5991281-482c-4895-865d-b7dbb2f2ad5c
+langcode: en
+status: true
+dependencies: {  }
+name: 16_9_l_660x371
+label: '16:9 L 660x371'
+effects:
+  0232312a-9b35-45ed-a2b0-b1737b666aaa:
+    uuid: 0232312a-9b35-45ed-a2b0-b1737b666aaa
+    id: image_resize
+    weight: 1
+    data:
+      width: 660
+      height: 371

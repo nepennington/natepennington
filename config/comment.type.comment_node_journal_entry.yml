@@ -1,0 +1,8 @@
+uuid: fd126f0b-eca3-4076-83ba-d671b31b1a7d
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_journal_entry
+label: 'Journal entry comment'
+target_entity_type_id: node
+description: null

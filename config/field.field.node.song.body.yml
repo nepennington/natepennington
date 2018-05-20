@@ -1,0 +1,22 @@
+uuid: ab7a62dc-c63f-4926-8366-2692a8032002
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.song
+  module:
+    - text
+id: node.song.body
+field_name: body
+entity_type: node
+bundle: song
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

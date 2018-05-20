@@ -1,0 +1,12 @@
+uuid: 7f9bd570-bc15-4d24-a98b-0e834fa3725d
+langcode: en
+status: true
+dependencies: {  }
+id: website_feedback
+label: 'Website feedback'
+recipients:
+  - nepennington@gmail.com
+reply: ''
+weight: 0
+message: null
+redirect: null

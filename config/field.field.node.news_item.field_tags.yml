@@ -1,0 +1,28 @@
+uuid: e11e8d62-d87c-4092-a92b-7524847010ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.news_item
+    - taxonomy.vocabulary.tags
+id: node.news_item.field_tags
+field_name: field_tags
+entity_type: node
+bundle: news_item
+label: tags
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

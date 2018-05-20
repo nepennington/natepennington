@@ -1,0 +1,20 @@
+uuid: 4ab01304-f3e6-4ca1-9d20-85ca5c6cdd49
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - omega4_music
+id: omega4_music_system_main
+theme: omega4_music
+region: ''
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  provider: system
+  label_display: '0'
+visibility: {  }

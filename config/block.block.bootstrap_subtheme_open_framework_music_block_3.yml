@@ -1,0 +1,35 @@
+uuid: 19f7d51f-821d-4020-8f2f-c0ba3adfd8cf
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7ff3a47d-fefe-4b62-96dd-a30a4694d713'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - bootstrap_subtheme
+third_party_settings:
+  block_class:
+    classes: 'col-lg-4 col-md-6 col-sm-12'
+id: bootstrap_subtheme_open_framework_music_block_3
+theme: bootstrap_subtheme
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:7ff3a47d-fefe-4b62-96dd-a30a4694d713'
+settings:
+  id: 'block_content:7ff3a47d-fefe-4b62-96dd-a30a4694d713'
+  label: 'follow on facebook'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
+    context_mapping: {  }

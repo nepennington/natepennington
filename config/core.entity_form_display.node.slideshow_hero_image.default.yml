@@ -1,0 +1,62 @@
+uuid: 3cdd7a8c-7836-47d9-8e7c-7bc829d59d52
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.slideshow_hero_image.body
+    - field.field.node.slideshow_hero_image.field_slideshow_hero_image
+    - image.style.thumbnail
+    - node.type.slideshow_hero_image
+  module:
+    - image
+    - imce
+id: node.slideshow_hero_image.default
+targetEntityType: node
+bundle: slideshow_hero_image
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_slideshow_hero_image:
+    weight: 1
+    settings:
+      preview_image_style: thumbnail
+      progress_indicator: throbber
+    third_party_settings:
+      imce:
+        enabled: false
+    type: image_image
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 4
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden:
+  body: true
+  path: true
+  promote: true
+  sticky: true

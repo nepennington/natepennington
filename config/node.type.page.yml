@@ -1,4 +1,4 @@
-uuid: 14c1e70d-aaa7-4cbc-8b8d-5422821dfbfa
+uuid: c26279ea-6cf7-42a7-a82a-4f78a5625a87
 langcode: en
 status: true
 dependencies: {  }
@@ -8,6 +8,6 @@ name: 'Basic page'
 type: page
 description: 'Use <em>basic pages</em> for your static content, such as an ''About us'' page.'
 help: ''
-new_revision: true
+new_revision: false
 preview_mode: 1
 display_submitted: false

@@ -1,0 +1,22 @@
+uuid: 8e47672e-875d-4bc0-9072-aed5481be230
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.journal_entry
+id: node.journal_entry.status
+field_name: status
+entity_type: node
+bundle: journal_entry
+label: 'Publishing status'
+description: 'A boolean indicating the published state.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,20 @@
+uuid: 457cac8e-3426-4ecf-9021-da3a915d5561
+langcode: en
+status: false
+dependencies:
+  module:
+    - user
+  theme:
+    - bartik
+id: open_framework_music_user_login
+theme: bartik
+region: footer_fifth
+weight: -6
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: ''
+  provider: user
+  label_display: '0'
+visibility: {  }

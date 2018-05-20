@@ -1,0 +1,14 @@
+uuid: 743abdba-bea1-4c20-b7ec-daf0c48a1441
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.site_owner
+  module:
+    - user
+id: user_add_role_action.site_owner
+label: 'Add the site owner role to the selected users'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: site_owner

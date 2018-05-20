@@ -1,0 +1,8 @@
+uuid: ced7fae9-21c8-4b6d-9dec-0fa1f7eeab4e
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_artist
+label: 'Artist comment'
+target_entity_type_id: node
+description: null

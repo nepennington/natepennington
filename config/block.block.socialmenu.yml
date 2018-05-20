@@ -1,0 +1,29 @@
+uuid: 2575564f-e3bd-403d-92cf-731a9de88eee
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2d0cfdf7-d033-4481-8d38-37e021eb579a'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - bootstrap_subtheme
+third_party_settings:
+  block_class:
+    classes: pull-right
+id: socialmenu
+theme: bootstrap_subtheme
+region: navigation_collapsible
+weight: -11
+provider: null
+plugin: 'block_content:2d0cfdf7-d033-4481-8d38-37e021eb579a'
+settings:
+  id: 'block_content:2d0cfdf7-d033-4481-8d38-37e021eb579a'
+  label: 'Social Menu'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

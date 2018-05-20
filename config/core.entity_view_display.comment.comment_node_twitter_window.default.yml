@@ -1,0 +1,25 @@
+uuid: 9c659b4b-1341-438e-8d7c-28dced40c11b
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_twitter_window
+    - field.field.comment.comment_node_twitter_window.comment_body
+  module:
+    - text
+id: comment.comment_node_twitter_window.default
+targetEntityType: comment
+bundle: comment_node_twitter_window
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

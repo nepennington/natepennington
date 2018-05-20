@@ -1,0 +1,21 @@
+uuid: 19d1e21b-7247-4fa4-9b40-26c627e07aa5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_soundcloud_song_link
+    - node.type.song
+  module:
+    - soundcloudfield
+id: node.song.field_soundcloud_song_link
+field_name: field_soundcloud_song_link
+entity_type: node
+bundle: song
+label: 'SoundCloud Song Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: soundcloud

@@ -1,0 +1,8 @@
+uuid: 2ce157ab-e8ed-4d6a-8faf-5c48cc8797e9
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_twitter_window
+label: 'Twitter Window comment'
+target_entity_type_id: node
+description: null

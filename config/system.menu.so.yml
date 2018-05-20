@@ -1,0 +1,8 @@
+uuid: ab0fc4b5-0968-4948-b255-1718c9622ea8
+langcode: en
+status: true
+dependencies: {  }
+id: so
+label: 'Social Links'
+description: 'Social Media Icon Links'
+locked: false

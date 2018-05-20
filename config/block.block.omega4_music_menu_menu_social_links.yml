@@ -1,0 +1,18 @@
+uuid: 9a9088fc-6689-4755-a422-fa5e3b589dfc
+langcode: en
+status: false
+dependencies:
+  theme:
+    - omega4_music
+id: omega4_music_menu_menu_social_links
+theme: omega4_music
+region: ''
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu-social-links'
+settings:
+  id: broken
+  label: '<none>'
+  provider: core
+  label_display: visible
+visibility: {  }

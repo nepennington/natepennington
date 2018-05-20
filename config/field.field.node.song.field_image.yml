@@ -1,0 +1,38 @@
+uuid: cf5b3cf5-37f9-40c7-8a9c-843290ab9ed2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image
+    - node.type.song
+  module:
+    - image
+id: node.song.field_image
+field_name: field_image
+entity_type: node
+bundle: song
+label: Image
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: images/images-songimages
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: 'Nate Pennington Song'
+    title: ''
+    width: 240
+    height: 239
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

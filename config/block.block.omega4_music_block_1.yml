@@ -1,0 +1,25 @@
+uuid: aca28713-3d02-44a0-bb6e-e0d1d10e3a04
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:38e06af9-3de0-407e-b020-23792d524ab0'
+  module:
+    - block_content
+  theme:
+    - omega4_music
+id: omega4_music_block_1
+theme: omega4_music
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:38e06af9-3de0-407e-b020-23792d524ab0'
+settings:
+  id: 'block_content:38e06af9-3de0-407e-b020-23792d524ab0'
+  label: '<none>'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

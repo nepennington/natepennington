@@ -1,0 +1,14 @@
+uuid: 7aba08bb-90fa-4433-9588-514777d067e5
+langcode: en
+status: true
+dependencies: {  }
+name: desktop
+label: Desktop
+effects:
+  2bdc866e-ed00-41a4-9955-627011728a39:
+    uuid: 2bdc866e-ed00-41a4-9955-627011728a39
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 960
+      height: 540

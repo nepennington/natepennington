@@ -1,0 +1,14 @@
+uuid: 77e3a08a-fb31-42b0-a9c4-a24d962d7222
+langcode: en
+status: true
+dependencies: {  }
+name: 1_1_l_680x680
+label: '1:1 L 680x680'
+effects:
+  a884cd03-dfdf-4652-a14a-eb6b3b637a34:
+    uuid: a884cd03-dfdf-4652-a14a-eb6b3b637a34
+    id: image_resize
+    weight: 1
+    data:
+      width: 680
+      height: 680

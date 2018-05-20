@@ -1,0 +1,130 @@
+uuid: be431e31-5691-47eb-9506-4baf49f01d4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.hero_l_1200x500
+    - image.style.hero_m_850x354
+    - image.style.hero_s_720x300
+    - image.style.hero_xl_1680x700
+    - image.style.hero_xs_400x166
+  theme:
+    - bootstrap
+id: hero_image
+label: 'Hero Image'
+image_style_mappings:
+  -
+    breakpoint_id: bootstrap.screen-lg-min
+    multiplier: 1x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - hero_l_1200x500
+        - hero_xl_1680x700
+  -
+    breakpoint_id: bootstrap.screen-lg-min
+    multiplier: 2x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - hero_l_1200x500
+        - hero_xl_1680x700
+  -
+    breakpoint_id: bootstrap.screen-md-max
+    multiplier: 1x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - hero_m_850x354
+        - hero_s_720x300
+        - hero_xs_400x166
+  -
+    breakpoint_id: bootstrap.screen-md-max
+    multiplier: 2x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - hero_m_850x354
+        - hero_s_720x300
+        - hero_xs_400x166
+  -
+    breakpoint_id: bootstrap.screen-md-min
+    multiplier: 1x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - hero_l_1200x500
+        - hero_xl_1680x700
+  -
+    breakpoint_id: bootstrap.screen-md-min
+    multiplier: 2x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - hero_l_1200x500
+        - hero_xl_1680x700
+  -
+    breakpoint_id: bootstrap.screen-sm-max
+    multiplier: 1x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - hero_m_850x354
+        - hero_s_720x300
+        - hero_xs_400x166
+  -
+    breakpoint_id: bootstrap.screen-sm-max
+    multiplier: 2x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - hero_m_850x354
+        - hero_s_720x300
+        - hero_xs_400x166
+  -
+    breakpoint_id: bootstrap.screen-sm-min
+    multiplier: 1x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - hero_s_720x300
+        - hero_xs_400x166
+  -
+    breakpoint_id: bootstrap.screen-sm-min
+    multiplier: 2x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - hero_l_1200x500
+        - hero_m_850x354
+        - hero_xl_1680x700
+  -
+    breakpoint_id: bootstrap.screen-xs-max
+    multiplier: 1x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - hero_s_720x300
+        - hero_xs_400x166
+  -
+    breakpoint_id: bootstrap.screen-xs-max
+    multiplier: 2x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - hero_s_720x300
+        - hero_xs_400x166
+breakpoint_group: bootstrap
+fallback_image_style: hero_l_1200x500

@@ -1,0 +1,20 @@
+uuid: 3bd6a5cb-9bc4-4230-b77f-49b67d6642df
+langcode: en
+status: false
+dependencies:
+  module:
+    - user
+  theme:
+    - omega4_music
+id: omega4_music_user_login
+theme: omega4_music
+region: ''
+weight: -9
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: ''
+  provider: user
+  label_display: '0'
+visibility: {  }

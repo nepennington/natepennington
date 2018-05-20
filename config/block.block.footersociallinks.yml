@@ -1,0 +1,29 @@
+uuid: b2c62f79-94b9-49f7-ad3b-1acb32ba331a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d4a11f19-98b4-4134-b10c-faf87f682c91'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - bootstrap_subtheme
+third_party_settings:
+  block_class:
+    classes: 'navbar navbar-collapse navbar-vertical-align pull-right footer-social-nav'
+id: footersociallinks
+theme: bootstrap_subtheme
+region: footer
+weight: -11
+provider: null
+plugin: 'block_content:d4a11f19-98b4-4134-b10c-faf87f682c91'
+settings:
+  id: 'block_content:d4a11f19-98b4-4134-b10c-faf87f682c91'
+  label: 'Footer Social LInks'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

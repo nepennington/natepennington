@@ -1,0 +1,14 @@
+uuid: 51ab7710-dc9d-4c51-87c3-3e694e0d359a
+langcode: en
+status: true
+dependencies: {  }
+name: hero_s_720x300
+label: 'Hero S 720x300'
+effects:
+  aa5a202a-8e86-4f18-affb-68094cf59267:
+    uuid: aa5a202a-8e86-4f18-affb-68094cf59267
+    id: image_resize
+    weight: 1
+    data:
+      width: 720
+      height: 300

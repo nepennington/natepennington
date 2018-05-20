@@ -1,0 +1,36 @@
+nid_list:
+  - 13
+  - 14
+translation_sync: true
+search: false
+_core:
+  default_config_hash: tFcyNjovmdPA1ZVm7j2Iymt809j-r2F5uSDJAOI_QV8
+content_types:
+  album: none
+  article: none
+  artist: none
+  banner_slideshow: none
+  event: none
+  journal_entry: none
+  news_item: none
+  page: user
+  panel: none
+  song: none
+  twitter_window: none
+  video: none
+  webform: none
+content_type_modes:
+  album: {  }
+  article: {  }
+  artist: {  }
+  banner_slideshow: {  }
+  event: {  }
+  journal_entry: {  }
+  news_item: {  }
+  page:
+    - full
+  panel: {  }
+  song: {  }
+  twitter_window: {  }
+  video: {  }
+  webform: {  }

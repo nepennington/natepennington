@@ -1,0 +1,8 @@
+uuid: 0026ed5c-665b-46f8-9981-d69129bbf1e2
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_song
+label: 'Song comment'
+target_entity_type_id: node
+description: null

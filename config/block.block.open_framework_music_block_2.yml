@@ -1,0 +1,31 @@
+uuid: f56242ba-3e3a-4a0a-9eb7-d1806f5d5eb7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:77f776dc-795f-419a-a610-6c71d9416ae9'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: open_framework_music_block_2
+theme: bartik
+region: featured_bottom_first
+weight: 0
+provider: null
+plugin: 'block_content:77f776dc-795f-419a-a610-6c71d9416ae9'
+settings:
+  id: 'block_content:77f776dc-795f-419a-a610-6c71d9416ae9'
+  label: 'latest tweets'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
+    context_mapping: {  }

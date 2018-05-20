@@ -1,0 +1,16 @@
+uuid: 01a87285-3f9b-405a-8db0-bf5283e950ab
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    parent: 'main-menu:0:'
+name: Song
+type: song
+description: 'Add a song track'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

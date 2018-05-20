@@ -1,0 +1,23 @@
+uuid: 497e2e11-4f49-4c29-8f01-4d65b349176b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured
+    - node.type.video
+id: node.video.field_featured
+field_name: field_featured
+entity_type: node
+bundle: video
+label: Featured
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

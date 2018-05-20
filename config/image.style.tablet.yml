@@ -1,0 +1,14 @@
+uuid: 07d691c8-a849-4b78-a6a5-dd9c9c714d62
+langcode: en
+status: true
+dependencies: {  }
+name: tablet
+label: Tablet
+effects:
+  30d42eaa-61c4-4452-9fa3-4065d3377f02:
+    uuid: 30d42eaa-61c4-4452-9fa3-4065d3377f02
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 768
+      height: 432

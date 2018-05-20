@@ -1,0 +1,18 @@
+uuid: e9b8bedb-e5d8-4cd0-9c8c-490747479682
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bartik
+id: bartik_menu_menu_social_links
+theme: bartik
+region: footer_fourth
+weight: -11
+provider: null
+plugin: 'system_menu_block:menu-social-links'
+settings:
+  id: broken
+  label: 'Nate''s Mystery Block'
+  provider: core
+  label_display: visible
+visibility: {  }

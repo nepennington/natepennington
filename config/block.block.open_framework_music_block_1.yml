@@ -1,0 +1,25 @@
+uuid: 09c1dbac-19a6-4fc3-85e2-c9160dee8c8d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:38e06af9-3de0-407e-b020-23792d524ab0'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: open_framework_music_block_1
+theme: bartik
+region: footer_fifth
+weight: -9
+provider: null
+plugin: 'block_content:38e06af9-3de0-407e-b020-23792d524ab0'
+settings:
+  id: 'block_content:38e06af9-3de0-407e-b020-23792d524ab0'
+  label: 'Nate''s Copyright Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

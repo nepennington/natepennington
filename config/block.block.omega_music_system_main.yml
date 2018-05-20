@@ -1,0 +1,20 @@
+uuid: 75bfc488-7102-435b-9fe0-c802e5843e9f
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - omega_music
+id: omega_music_system_main
+theme: omega_music
+region: ''
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  provider: system
+  label_display: '0'
+visibility: {  }

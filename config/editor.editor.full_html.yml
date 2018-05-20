@@ -1,4 +1,4 @@
-uuid: c91597fd-80ac-4b40-8bba-b4221eae4680
+uuid: 53acdcee-1b67-4773-8758-ef36497b5906
 langcode: en
 status: true
 dependencies:
@@ -41,6 +41,7 @@ settings:
             - DrupalImage
             - Table
             - HorizontalRule
+            - video_embed
         -
           name: 'Block Formatting'
           items:
@@ -53,11 +54,20 @@ settings:
   plugins:
     stylescombo:
       styles: ''
+    language:
+      language_list: un
+    video_embed:
+      defaults:
+        children:
+          autoplay: false
+          responsive: true
+          width: '854'
+          height: '480'
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null

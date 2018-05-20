@@ -1,0 +1,14 @@
+uuid: cdeaaad5-ba76-4f1a-b667-633ac4019da5
+langcode: en
+status: true
+dependencies: {  }
+name: 16_9_xxl_1280x720
+label: '16:9 XXL 1280x720'
+effects:
+  43ab9673-4f45-45b1-ad56-d131c7f111ad:
+    uuid: 43ab9673-4f45-45b1-ad56-d131c7f111ad
+    id: image_resize
+    weight: 1
+    data:
+      width: 1280
+      height: 720

@@ -1,0 +1,14 @@
+uuid: 13ad9f52-6e5a-4fa6-802d-100c9e3d41e6
+langcode: en
+status: true
+dependencies: {  }
+name: 1_1_s_190x190
+label: '1:1 S 190x190'
+effects:
+  a28e3d33-e6b7-444c-8674-a226c44d2762:
+    uuid: a28e3d33-e6b7-444c-8674-a226c44d2762
+    id: image_resize
+    weight: 1
+    data:
+      width: 190
+      height: 190

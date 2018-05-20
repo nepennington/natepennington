@@ -1,0 +1,28 @@
+uuid: cdc1b83b-f3fd-4a69-8aa4-514a02e49bc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.song.body
+    - node.type.song
+  module:
+    - text
+    - user
+id: node.song.teaser
+targetEntityType: node
+bundle: song
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

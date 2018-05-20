@@ -1,0 +1,17 @@
+uuid: 4f4133ff-2a24-4c18-8c15-5f21db2225e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    parent: ''
+    available_menus: {  }
+name: Event
+type: event
+description: 'Enter in an event:  This can be a screening, concert date, public announcement.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

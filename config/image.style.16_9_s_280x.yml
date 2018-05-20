@@ -1,0 +1,14 @@
+uuid: 07b3e2f5-aa6d-4090-a96e-68d3515b57a2
+langcode: en
+status: true
+dependencies: {  }
+name: 16_9_s_280x
+label: '16:9 S 280x158'
+effects:
+  d7e15ed2-db0c-4d0d-bf0a-e09ca17abb22:
+    uuid: d7e15ed2-db0c-4d0d-bf0a-e09ca17abb22
+    id: image_resize
+    weight: 1
+    data:
+      width: 280
+      height: 158

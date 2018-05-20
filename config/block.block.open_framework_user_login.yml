@@ -1,0 +1,20 @@
+uuid: a5026ee6-be08-49f0-a0da-f6a88030c9c3
+langcode: en
+status: false
+dependencies:
+  module:
+    - user
+  theme:
+    - open_framework
+id: open_framework_user_login
+theme: open_framework
+region: ''
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: ''
+  provider: user
+  label_display: '0'
+visibility: {  }

@@ -1,11 +1,11 @@
-uuid: ddda184c-9a40-4aec-9f1e-07999d892a4d
+uuid: a818f9a5-32b9-4a31-b3c6-a7a8c33c8a66
 langcode: en
 status: true
 dependencies:
   module:
     - node
 _core:
-  default_config_hash: 2B9uF8NL5gutNKSdPRAhhAsDWFZZG1PJOBmx0aBGd_0
+  default_config_hash: lsQkbo4njZ-Q_oGKCPGXGWFjWF1I7QpgA6m-t9rcRoA
 id: node_publish_action
 label: 'Publish content'
 type: node

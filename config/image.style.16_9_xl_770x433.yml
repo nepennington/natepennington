@@ -1,0 +1,14 @@
+uuid: edb852a8-f06d-4dd8-9696-b454ef5415df
+langcode: en
+status: true
+dependencies: {  }
+name: 16_9_xl_770x433
+label: '16:9 XL 770x433'
+effects:
+  b47b52d8-ff3d-4a36-9de0-0a35c7662914:
+    uuid: b47b52d8-ff3d-4a36-9de0-0a35c7662914
+    id: image_resize
+    weight: 1
+    data:
+      width: 770
+      height: 433

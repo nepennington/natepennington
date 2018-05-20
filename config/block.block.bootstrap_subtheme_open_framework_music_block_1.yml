@@ -1,0 +1,29 @@
+uuid: 9dc82043-56ce-4680-91d3-b3edc4798319
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:38e06af9-3de0-407e-b020-23792d524ab0'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - bootstrap_subtheme
+third_party_settings:
+  block_class:
+    classes: 'col-lg-4 col-md-4 col-sm-4'
+id: bootstrap_subtheme_open_framework_music_block_1
+theme: bootstrap_subtheme
+region: footer
+weight: -12
+provider: null
+plugin: 'block_content:38e06af9-3de0-407e-b020-23792d524ab0'
+settings:
+  id: 'block_content:38e06af9-3de0-407e-b020-23792d524ab0'
+  label: 'Nate''s Copyright Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

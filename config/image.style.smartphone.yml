@@ -1,0 +1,14 @@
+uuid: f1b2ec8d-380f-4d49-8122-c3911920c36a
+langcode: en
+status: true
+dependencies: {  }
+name: smartphone
+label: Smartphone
+effects:
+  f2825cd3-2966-49cc-99e1-ba1522cdfe8a:
+    uuid: f2825cd3-2966-49cc-99e1-ba1522cdfe8a
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 270

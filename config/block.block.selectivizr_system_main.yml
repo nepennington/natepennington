@@ -1,0 +1,20 @@
+uuid: 3be32abd-5f0c-49de-886a-cb240f864e49
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - selectivizr
+id: selectivizr_system_main
+theme: selectivizr
+region: ''
+weight: -12
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  provider: system
+  label_display: '0'
+visibility: {  }

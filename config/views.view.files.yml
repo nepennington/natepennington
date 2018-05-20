@@ -1,9 +1,10 @@
-uuid: 7b6388cf-a617-44a1-a9aa-36a1c28d3913
+uuid: 1e6bbf04-c8b1-4c3c-bc4e-1ea7d87dc9fe
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - file
+    - file_entity
     - user
 _core:
   default_config_hash: rRWxAX-IQkJ5viACQRovRkC784EyCl9493GU_G23n2Q
@@ -598,6 +599,7 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
+            placeholder: ''
           is_grouped: false
           group_info:
             label: ''
@@ -638,6 +640,7 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
+            placeholder: ''
           is_grouped: false
           group_info:
             label: ''

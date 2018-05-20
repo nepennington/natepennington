@@ -1,0 +1,21 @@
+uuid: b53b9344-4fc8-44a5-b241-c99c4f7a360b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta_tags
+    - node.type.song
+  module:
+    - metatag
+id: node.song.field_meta_tags
+field_name: field_meta_tags
+entity_type: node
+bundle: song
+label: 'Meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

@@ -1,0 +1,21 @@
+uuid: 0027888b-a0aa-4755-9515-d32730e8ba64
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_yoast_seo
+    - node.type.twitter_window
+  module:
+    - yoast_seo
+id: node.twitter_window.field_yoast_seo
+field_name: field_yoast_seo
+entity_type: node
+bundle: twitter_window
+label: 'Real-time SEO'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: yoast_seo

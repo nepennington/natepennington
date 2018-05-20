@@ -1,0 +1,14 @@
+uuid: d38a1c9d-635c-48d1-92db-a8343834649d
+langcode: en
+status: true
+dependencies: {  }
+name: 16_9_m_470x264
+label: '16:9 M 470x264'
+effects:
+  6db66300-cdf3-4d04-a5af-49e085008c94:
+    uuid: 6db66300-cdf3-4d04-a5af-49e085008c94
+    id: image_resize
+    weight: 1
+    data:
+      width: 470
+      height: 264

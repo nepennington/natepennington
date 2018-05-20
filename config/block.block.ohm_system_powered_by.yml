@@ -1,0 +1,20 @@
+uuid: 0f08336e-2061-4dba-95ef-c6b2a8c24480
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ohm
+id: ohm_system_powered_by
+theme: ohm
+region: ''
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: ''
+  provider: system
+  label_display: '0'
+visibility: {  }

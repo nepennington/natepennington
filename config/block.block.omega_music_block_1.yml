@@ -1,0 +1,25 @@
+uuid: ef02c0d0-7972-4134-b3c0-aa308e0899db
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:38e06af9-3de0-407e-b020-23792d524ab0'
+  module:
+    - block_content
+  theme:
+    - omega_music
+id: omega_music_block_1
+theme: omega_music
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:38e06af9-3de0-407e-b020-23792d524ab0'
+settings:
+  id: 'block_content:38e06af9-3de0-407e-b020-23792d524ab0'
+  label: '<none>'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
