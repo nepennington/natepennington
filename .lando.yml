@@ -1,0 +1,6 @@
+name: natepennington
+recipe: pantheon
+config:
+  framework: drupal8
+  site: natepennington
+  id: 25f3b9f5-fb1a-4841-bd19-491b849f10fe
