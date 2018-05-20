@@ -2181,6 +2181,59 @@
         }
     },
     {
+        "name": "drupal/components",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/components",
+            "reference": "8.x-1.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/components-8.x-1.0.zip",
+            "reference": "8.x-1.0",
+            "shasum": "adb1872a655466d575c2d3396f7ca2daba0a2918"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0",
+                "datestamp": "1461060840",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "JohnAlbin",
+                "homepage": "https://www.drupal.org/user/32095"
+            },
+            {
+                "name": "RobLoach",
+                "homepage": "https://www.drupal.org/user/61114"
+            }
+        ],
+        "description": "Registers “component libraries” defined in modules and themes with the Twig system",
+        "homepage": "https://www.drupal.org/project/components",
+        "support": {
+            "source": "http://cgit.drupalcode.org/components"
+        }
+    },
+    {
         "name": "drupal/config_direct_save",
         "version": "1.0.0",
         "version_normalized": "1.0.0.0",
@@ -2275,6 +2328,59 @@
         "homepage": "https://www.drupal.org/project/config_installer",
         "support": {
             "source": "http://cgit.drupalcode.org/config_installer"
+        }
+    },
+    {
+        "name": "drupal/config_update",
+        "version": "1.5.0",
+        "version_normalized": "1.5.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/config_update",
+            "reference": "8.x-1.5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/config_update-8.x-1.5.zip",
+            "reference": "8.x-1.5",
+            "shasum": "2f7ae5f90b1c0ab8edf84680d2651e81fab6a126"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.5",
+                "datestamp": "1512587912",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "jhodgdon",
+                "homepage": "https://www.drupal.org/user/155601"
+            },
+            {
+                "name": "nedjo",
+                "homepage": "https://www.drupal.org/user/4481"
+            }
+        ],
+        "description": "Provides basic revert and update functionality for other modules",
+        "homepage": "https://www.drupal.org/project/config_update",
+        "support": {
+            "source": "http://cgit.drupalcode.org/config_update"
         }
     },
     {
@@ -2542,6 +2648,175 @@
         "description": "Drupal Console Extend Plugin"
     },
     {
+        "name": "drupal/context",
+        "version": "4.0.0-beta2",
+        "version_normalized": "4.0.0.0-beta2",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/context",
+            "reference": "8.x-4.0-beta2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/context-8.x-4.0-beta2.zip",
+            "reference": "8.x-4.0-beta2",
+            "shasum": "e41bc912e1ec73bc4d08a3cf730dc2405a9213d3"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-4.x": "4.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-4.0-beta2",
+                "datestamp": "1505378944",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Beta releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Christoffer Palm",
+                "homepage": "http://www.oddhill.se/",
+                "email": "christoffer.palm@oddhill.se",
+                "role": "Developer"
+            },
+            {
+                "name": "Steven Jones",
+                "homepage": "https://www.drupal.org/user/99644"
+            },
+            {
+                "name": "alex_b",
+                "homepage": "https://www.drupal.org/user/53995"
+            },
+            {
+                "name": "boshtian",
+                "homepage": "https://www.drupal.org/user/1773456"
+            },
+            {
+                "name": "colan",
+                "homepage": "https://www.drupal.org/user/58704"
+            },
+            {
+                "name": "emanaton",
+                "homepage": "https://www.drupal.org/user/120853"
+            },
+            {
+                "name": "febbraro",
+                "homepage": "https://www.drupal.org/user/43670"
+            },
+            {
+                "name": "fizk",
+                "homepage": "https://www.drupal.org/user/473174"
+            },
+            {
+                "name": "hass",
+                "homepage": "https://www.drupal.org/user/85918"
+            },
+            {
+                "name": "hefox",
+                "homepage": "https://www.drupal.org/user/426416"
+            },
+            {
+                "name": "hyrcan",
+                "homepage": "https://www.drupal.org/user/26618"
+            },
+            {
+                "name": "jmiccolis",
+                "homepage": "https://www.drupal.org/user/31731"
+            },
+            {
+                "name": "tekante",
+                "homepage": "https://www.drupal.org/user/640024"
+            },
+            {
+                "name": "yhahn",
+                "homepage": "https://www.drupal.org/user/264833"
+            }
+        ],
+        "description": "Manage contextual conditions and reactions for different portions of your site.",
+        "homepage": "https://github.com/oddhill/context",
+        "keywords": [
+            "Drupal",
+            "block",
+            "conditions",
+            "context",
+            "visibility"
+        ],
+        "support": {
+            "source": "https://github.com/oddhill/context",
+            "issues": "https://github.com/oddhill/context/issues",
+            "docs": "https://github.com/oddhill/context"
+        }
+    },
+    {
+        "name": "drupal/contribute",
+        "version": "5.0.0-beta3",
+        "version_normalized": "5.0.0.0-beta3",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/contribute",
+            "reference": "8.x-5.0-beta3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/contribute-8.x-5.0-beta3.zip",
+            "reference": "8.x-5.0-beta3",
+            "shasum": "8ee067c4b9472b51af90b9481e4302527080129c"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-5.x": "5.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-5.0-beta3",
+                "datestamp": "1515761285",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Beta releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "adriancid",
+                "homepage": "https://www.drupal.org/user/1962106"
+            },
+            {
+                "name": "jrockowitz",
+                "homepage": "https://www.drupal.org/user/371407"
+            }
+        ],
+        "description": "Provides status report message which encourage users or organizations to join the Drupal community, become a member of Drupal Association, and contribute back to Drupal.",
+        "homepage": "https://www.drupal.org/project/contribute",
+        "keywords": [
+            "Drupal"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/contribute",
+            "issues": "https://www.drupal.org/project/issues/contribute"
+        }
+    },
+    {
         "name": "drupal/core",
         "version": "8.5.3",
         "version_normalized": "8.5.3.0",
@@ -2779,6 +3054,101 @@
         "description": "Drupal is an open source content management platform powering millions of websites and applications."
     },
     {
+        "name": "drupal/ctools",
+        "version": "3.0.0",
+        "version_normalized": "3.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/ctools",
+            "reference": "8.x-3.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/ctools-8.x-3.0.zip",
+            "reference": "8.x-3.0",
+            "shasum": "302e869ecd1e59fe55663673999fee2ccac5daa8"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-3.x": "3.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-3.0",
+                "datestamp": "1493401742",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Kris Vanderwater (EclipseGc)",
+                "homepage": "https://www.drupal.org/u/eclipsegc",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Jakob Perry (japerry)",
+                "homepage": "https://www.drupal.org/u/japerry",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Tim Plunkett (tim.plunkett)",
+                "homepage": "https://www.drupal.org/u/timplunkett",
+                "role": "Maintainer"
+            },
+            {
+                "name": "James Gilliland (neclimdul)",
+                "homepage": "https://www.drupal.org/u/neclimdul",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Daniel Wehner (dawehner)",
+                "homepage": "https://www.drupal.org/u/dawehner",
+                "role": "Maintainer"
+            },
+            {
+                "name": "joelpittet",
+                "homepage": "https://www.drupal.org/user/160302"
+            },
+            {
+                "name": "merlinofchaos",
+                "homepage": "https://www.drupal.org/user/26979"
+            },
+            {
+                "name": "neclimdul",
+                "homepage": "https://www.drupal.org/user/48673"
+            },
+            {
+                "name": "sdboyer",
+                "homepage": "https://www.drupal.org/user/146719"
+            },
+            {
+                "name": "sun",
+                "homepage": "https://www.drupal.org/user/54136"
+            },
+            {
+                "name": "tim.plunkett",
+                "homepage": "https://www.drupal.org/user/241634"
+            }
+        ],
+        "description": "Provides a number of utility and helper APIs for Drupal developers and site builders.",
+        "homepage": "https://www.drupal.org/project/ctools",
+        "support": {
+            "source": "http://cgit.drupalcode.org/ctools",
+            "issues": "https://www.drupal.org/project/issues/ctools"
+        }
+    },
+    {
         "name": "drupal/drupal-driver",
         "version": "v1.4.0",
         "version_normalized": "1.4.0.0",
@@ -2912,6 +3282,135 @@
         ]
     },
     {
+        "name": "drupal/fontawesome",
+        "version": "2.2.0",
+        "version_normalized": "2.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/fontawesome",
+            "reference": "8.x-2.2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/fontawesome-8.x-2.2.zip",
+            "reference": "8.x-2.2",
+            "shasum": "01ccb314a33db936fb18ab570441e1d8c9ab5894"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-2.x": "2.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-2.2",
+                "datestamp": "1526243880",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            },
+            "drush": {
+                "services": {
+                    "drush.services.yml": "^9"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Daniel.Moberly",
+                "homepage": "https://www.drupal.org/user/1160788"
+            },
+            {
+                "name": "RobLoach",
+                "homepage": "https://www.drupal.org/user/61114"
+            },
+            {
+                "name": "cosmicdreams",
+                "homepage": "https://www.drupal.org/user/42579"
+            },
+            {
+                "name": "geerlingguy",
+                "homepage": "https://www.drupal.org/user/389011"
+            },
+            {
+                "name": "inders",
+                "homepage": "https://www.drupal.org/user/127640"
+            },
+            {
+                "name": "markcarver",
+                "homepage": "https://www.drupal.org/user/501638"
+            },
+            {
+                "name": "truls1502",
+                "homepage": "https://www.drupal.org/user/325866"
+            }
+        ],
+        "description": "The web's most popular icon set and toolkit.",
+        "homepage": "https://www.drupal.org/project/fontawesome",
+        "support": {
+            "source": "http://cgit.drupalcode.org/fontawesome"
+        }
+    },
+    {
+        "name": "drupal/fontawesome_menu_icons",
+        "version": "1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/fontawesome_menu_icons",
+            "reference": "8.x-1.2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/fontawesome_menu_icons-8.x-1.2.zip",
+            "reference": "8.x-1.2",
+            "shasum": "ed80e349db605febdbb3d1691e247dbb1ccfda4b"
+        },
+        "require": {
+            "drupal/core": "*",
+            "drupal/fontawesome": "*",
+            "drupal/libraries": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.2",
+                "datestamp": "1509629285",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "lonalore",
+                "homepage": "https://www.drupal.org/user/1539304"
+            }
+        ],
+        "description": "FontAwesome Menu Icons",
+        "homepage": "https://www.drupal.org/project/fontawesome_menu_icons",
+        "support": {
+            "source": "http://cgit.drupalcode.org/fontawesome_menu_icons"
+        }
+    },
+    {
         "name": "drupal/fontyourface",
         "version": "3.2.0",
         "version_normalized": "3.2.0.0",
@@ -2977,6 +3476,122 @@
         }
     },
     {
+        "name": "drupal/instagram_block",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/instagram_block",
+            "reference": "8.x-1.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/instagram_block-8.x-1.1.zip",
+            "reference": "8.x-1.1",
+            "shasum": "cba25b46341dba38b282790447bf83e5f726faab"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.1",
+                "datestamp": "1386294512",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "naveenvalecha",
+                "homepage": "https://www.drupal.org/user/2665733"
+            },
+            {
+                "name": "yanniboi",
+                "homepage": "https://www.drupal.org/user/1837556"
+            }
+        ],
+        "description": "Creates a block that displays images from instagram.",
+        "homepage": "https://www.drupal.org/project/instagram_block",
+        "support": {
+            "source": "http://cgit.drupalcode.org/instagram_block"
+        }
+    },
+    {
+        "name": "drupal/libraries",
+        "version": "3.0.0-alpha1",
+        "version_normalized": "3.0.0.0-alpha1",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/libraries",
+            "reference": "8.x-3.0-alpha1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/libraries-8.x-3.0-alpha1.zip",
+            "reference": "8.x-3.0-alpha1",
+            "shasum": "bb07036b1eaeea7d736fc7e72416238830cd8d67"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-3.x": "3.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-3.0-alpha1",
+                "datestamp": "1517046484",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Alpha releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Pol",
+                "homepage": "https://www.drupal.org/user/47194"
+            },
+            {
+                "name": "rjacobs",
+                "homepage": "https://www.drupal.org/user/422459"
+            },
+            {
+                "name": "sun",
+                "homepage": "https://www.drupal.org/user/54136"
+            },
+            {
+                "name": "tstoeckler",
+                "homepage": "https://www.drupal.org/user/107158"
+            }
+        ],
+        "description": "Allows version-dependent and shared usage of external libraries in Drupal.",
+        "homepage": "http://drupal.org/project/libraries",
+        "support": {
+            "source": "http://cgit.drupalcode.org/libraries",
+            "issues": "http://drupal.org/project/issues/libraries",
+            "irc": "irc://irc.freenode.org/drupal-contribute"
+        }
+    },
+    {
         "name": "drupal/simple_block",
         "version": "1.0.0-beta1",
         "version_normalized": "1.0.0.0-beta1",
@@ -3023,6 +3638,120 @@
         "homepage": "https://www.drupal.org/project/simple_block",
         "support": {
             "source": "http://cgit.drupalcode.org/simple_block"
+        }
+    },
+    {
+        "name": "drupal/soundcloudfield",
+        "version": "1.0.0-alpha1",
+        "version_normalized": "1.0.0.0-alpha1",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/soundcloudfield",
+            "reference": "8.x-1.0-alpha1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/soundcloudfield-8.x-1.0-alpha1.zip",
+            "reference": "8.x-1.0-alpha1",
+            "shasum": "0e05eab259271b5d8dd83b6d2f303dff27471966"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-alpha1",
+                "datestamp": "1450046339",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Alpha releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "attila.fekete",
+                "homepage": "https://www.drupal.org/user/762986"
+            }
+        ],
+        "description": "Field for SoundCloud tracks and sets.",
+        "homepage": "https://www.drupal.org/project/soundcloudfield",
+        "support": {
+            "source": "http://cgit.drupalcode.org/soundcloudfield"
+        }
+    },
+    {
+        "name": "drupal/twitter_block",
+        "version": "2.1.0",
+        "version_normalized": "2.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/twitter_block",
+            "reference": "8.x-2.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/twitter_block-8.x-2.1.zip",
+            "reference": "8.x-2.1",
+            "shasum": "374eff45b257ca112177b38ef040fd2d920c5d16"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-2.x": "2.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-2.1",
+                "datestamp": "1463644739",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Devin Carlson",
+                "homepage": "https://www.drupal.org/user/290182"
+            },
+            {
+                "name": "ZenDoodles",
+                "homepage": "https://www.drupal.org/user/226976"
+            },
+            {
+                "name": "cweagans",
+                "homepage": "https://www.drupal.org/user/404732"
+            },
+            {
+                "name": "naveenvalecha",
+                "homepage": "https://www.drupal.org/user/2665733"
+            },
+            {
+                "name": "subhojit777",
+                "homepage": "https://www.drupal.org/user/1812492"
+            }
+        ],
+        "description": "Provides configurable blocks for a Twitter feed.",
+        "homepage": "http://drupal.org/project/twitter_block",
+        "support": {
+            "source": "http://cgit.drupalcode.org/twitter_block"
         }
     },
     {
