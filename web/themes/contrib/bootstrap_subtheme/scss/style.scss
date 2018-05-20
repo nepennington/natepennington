@@ -1,0 +1,33 @@
+// Default variables.
+@import "default-variables";
+
+// Bootstrap Framework.
+@import '../bootstrap/assets/stylesheets/bootstrap';
+
+// Base-theme overrides.
+@import 'overrides';
+
+.view-main-slideshow {
+	padding-bottom: 35px;
+	background-color: black;
+}
+
+//h1.timeline-header-title .u-inlineblock {
+//  text-transform: lowercase;
+//  color: red;
+//  font-size: 30px;
+//  font-weight: bold; }
+
+.footer.container {
+  padding: 5px 15px;
+  background-color: red; }
+
+p.copyright {
+  margin: 10px 0 10px;
+  padding-top: 5px;
+  color: #777777; }
+
+.footer-social-nav li a {
+  padding-right: 15px;
+  color: #777;
+  font-size: x-large; }

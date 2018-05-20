@@ -1,0 +1,26 @@
+// 
+// Custom
+// --------------------------------------------------
+
+
+// Base styles
+// -------------------------
+
+
+.view-main-slideshow {
+  padding-bottom: 36px;
+  background-color: black; }
+
+.footer .container {
+  padding: 5px 15px;
+  background-color: black; }
+
+p.copyright {
+  margin: 10px 0 10px;
+  padding-top: 5px;
+  color: #777777; }
+
+.footer-social-nav li a {
+  padding-right: 15px;
+  color: #777;
+  font-size: x-large; }
