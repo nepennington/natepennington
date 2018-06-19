@@ -16,9 +16,62 @@ bootstrap-scripts:
     bootstrap/assets/javascripts/bootstrap/popover.js: {}
     bootstrap/assets/javascripts/bootstrap/scrollspy.js: {}
     bootstrap/assets/javascripts/bootstrap/tab.js: {}
-    js/scripts.js: {}
+ # dependencies:
+ # - core/jquery
+
+mmenu-scripts:
+  js: 
+    js/mmenu/dist/jquery.mmenu.all.js: {}
   dependencies:
   - core/jquery
+
+superfish-scripts:
+  js: 
+    js/superfish/dist/js/superfish.js: {}
+  dependencies:
+  - core/jquery
+
+hammerjs-scripts:
+  js: 
+    js/hammerjs/hammer.js: {}
+  dependencies:
+  - core/jquery      
+
+fontawesome:
+  js:
+    js/fontawesome/svg-with-js/js/fontawesome-all.js: {}
+  dependencies:
+  - core/jquery
+
+#soundcloud-scripts:
+#  js:
+#    js/soundcloud.js: {}
+#  dependencies:
+#  - core/jquery
+
+
+
+#global-styling:
+#  css:
+#    theme:
+#      css/style.css: {}
+#
+#bootstrap-scripts:
+#  js:
+#    bootstrap/assets/javascripts/bootstrap/affix.js: {}
+#    bootstrap/assets/javascripts/bootstrap/alert.js: {}
+#    bootstrap/assets/javascripts/bootstrap/button.js: {}
+#    bootstrap/assets/javascripts/bootstrap/carousel.js: {}
+#    bootstrap/assets/javascripts/bootstrap/collapse.js: {}
+#    bootstrap/assets/javascripts/bootstrap/dropdown.js: {}
+#    bootstrap/assets/javascripts/bootstrap/modal.js: {}
+#    bootstrap/assets/javascripts/bootstrap/tooltip.js: {}
+#    bootstrap/assets/javascripts/bootstrap/popover.js: {}
+#    bootstrap/assets/javascripts/bootstrap/scrollspy.js: {}
+#    bootstrap/assets/javascripts/bootstrap/tab.js: {}
+#    js/scripts.js: {}
+#  dependencies:
+#  - core/jquery
 
 #responsive_menu-scripts:
 #  js:
