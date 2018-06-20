@@ -39,6 +39,8 @@ web/web.config
 # repository as a custom upstream. The .gitignore file
 # is not modified in the GitHub PR workflow.
 
+web/themes/contrib/bootstrap_subtheme/sftp-config.json
+
 
 # :::::::::::::::::::::: cut ::::::::::::::::::::::
 
