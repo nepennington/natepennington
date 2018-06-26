@@ -51,6 +51,8 @@
  * @see html.html.twig
  */
 #}
+
+<div id="page-wrapper">
 {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
 {# Navbar #}
 {% if page.navigation or page.navigation_collapsible %}
@@ -163,7 +165,8 @@
   {% block footer %}
     <footer class="footer {{ container }}" role="contentinfo">
       {{ page.footer }}
-      <script type="text/javascript" src="https://stratus.soundcloud.com/stratus.js"></script>
     </footer>
   {% endblock %}
 {% endif %}
+
+</div>
