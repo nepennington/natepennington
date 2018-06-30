@@ -45,6 +45,7 @@
         "drupal/google_analytics": "^2.2",
         "drupal/iframe": "^1.9",
         "drupal/imce": "^1.6",
+        "drupal/instagram_api": "^1.0",
         "drupal/instagram_block": "^1.1",
         "drupal/layout_plugin": "^1.0@alpha",
         "drupal/libraries": "^3.0@alpha",

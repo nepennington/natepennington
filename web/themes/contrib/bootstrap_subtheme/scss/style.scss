@@ -12,12 +12,6 @@
 	background-color: black;
 }
 
-//h1.timeline-header-title .u-inlineblock {
-//  text-transform: lowercase;
-//  color: red;
-//  font-size: 30px;
-//  font-weight: bold; }
-
 .footer.container {
   padding: 5px 15px;
   background-color: red; }
@@ -31,3 +25,8 @@ p.copyright {
   padding-right: 15px;
   color: #777;
   font-size: x-large; }
+
+.logo img {
+  height: 1px;
+  max-width: 50%; /* this could be 100% but for me it goes outside the header background at tablet */
+}

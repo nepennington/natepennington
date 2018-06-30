@@ -1,0 +1,26 @@
+{
+  "name": "musicsite",
+  "description": "Music Site Drupal8 Bootstrap3 project",
+  "main": "index.php",
+  "authors": [
+    "Nate Pennington"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "^5.0.0",
+    "normalize-css": "^8.0.0"
+  },
+  "devDependencies": {
+    "bourbon": "^5.0.0",
+    "susy": "^3.0.5",
+    "normalize-css": "^8.0.0"
+  }
+}

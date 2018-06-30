@@ -41,7 +41,6 @@ responsive_menu-scripts:
   dependencies:
     - core/jquery 
    
-
 #fontawesome:
 #  js:
 #    js/fontawesome/svg-with-js/js/fontawesome-all.js: {}
