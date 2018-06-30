@@ -22,5 +22,6 @@ regions:
 libraries:
   - 'bootstrap_subtheme/global-styling'
   - 'bootstrap_subtheme/bootstrap-scripts'
+  - 'bootstrap_subtheme/global-scripts'
   - 'bootstrap_subtheme/responsive_menu-scripts'
  # - 'bootstrap_subtheme/soundcloud-scripts
