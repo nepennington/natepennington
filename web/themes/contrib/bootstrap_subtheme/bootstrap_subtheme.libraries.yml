@@ -17,19 +17,34 @@ bootstrap-scripts:
     bootstrap/assets/javascripts/bootstrap/scrollspy.js: {}
     bootstrap/assets/javascripts/bootstrap/tab.js: {}
 
+global-scripts:
+  js:
+    js/scripts.js: {}
+  dependencies:
+    - core/jquery
+  js:
+    js/jquery.cycle/jquery.cycle.all.js: {}
+  dependencies:
+    - core/jquery
+
 responsive_menu-scripts:
   js:
     js/mmenu/dist/jquery.mmenu.all.js: {}
+  dependencies:
+    - core/jquery 
     js/hammerjs/hammer.js: {}
+  dependencies:
+    - core/jquery 
     js/superfish/dist/js/superfish.js: {}
   dependencies:
-  - core/jquery   
+    - core/jquery 
+   
 
-fontawesome:
-  js:
-    js/fontawesome/svg-with-js/js/fontawesome-all.js: {}
-  dependencies:
-  - core/jquery
+#fontawesome:
+#  js:
+#    js/fontawesome/svg-with-js/js/fontawesome-all.js: {}
+#  dependencies:
+#  - core/jquery
 
 #soundcloud-scripts:
 #  js:
