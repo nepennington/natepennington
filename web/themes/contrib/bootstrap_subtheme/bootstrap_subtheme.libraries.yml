@@ -23,7 +23,7 @@ global-scripts:
   dependencies:
     - core/jquery
   js:
-    js/jquery.cycle/jquery.cycle.all.js: {}
+    js/jquery./jquery.cycle.all.js: {}
   dependencies:
     - core/jquery
 
@@ -32,9 +32,11 @@ responsive_menu-scripts:
     js/mmenu/dist/jquery.mmenu.all.js: {}
   dependencies:
     - core/jquery 
+  js:
     js/hammerjs/hammer.js: {}
   dependencies:
-    - core/jquery 
+    - core/jquery
+  js: 
     js/superfish/dist/js/superfish.js: {}
   dependencies:
     - core/jquery 
