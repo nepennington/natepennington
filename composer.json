@@ -15,6 +15,7 @@
         "cweagans/composer-patches": "^1.0",
         "drupal-composer/drupal-scaffold": "^2.0.1",
         "drupal/admin_toolbar": "^1.24",
+        "drupal/admin_toolbar_tools": "^1.24",
         "drupal/auto_entitylabel": "^2.1@beta",
         "drupal/block_class": "^1.0@alpha",
         "drupal/bootstrap": "^3.11",
