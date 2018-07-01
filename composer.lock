@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "91212200f89578fec850abf5bcfe0231",
+    "content-hash": "1d9b00e9565f8ae206e9f2931ec6acdd",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2200,17 +2200,11 @@
         },
         {
             "name": "drupal/contribute",
-            "version": "5.0.0-beta3",
+            "version": "dev-1.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/contribute",
-                "reference": "8.x-5.0-beta3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/contribute-8.x-5.0-beta3.zip",
-                "reference": "8.x-5.0-beta3",
-                "shasum": "8ee067c4b9472b51af90b9481e4302527080129c"
+                "reference": "7b4a492df850379f9d4f4297069bb3185adbbea9"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -2218,14 +2212,14 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-5.x": "5.x-dev"
+                    "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-5.0-beta3",
-                    "datestamp": "1515761285",
+                    "version": "8.x-1.0-beta7+2-dev",
+                    "datestamp": "1525374180",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -2235,12 +2229,14 @@
             ],
             "authors": [
                 {
-                    "name": "adriancid",
-                    "homepage": "https://www.drupal.org/user/1962106"
+                    "name": "Adrian Cid Almaguer (adriancid)",
+                    "homepage": "https://www.drupal.org/u/adriancid",
+                    "role": "Maintainer"
                 },
                 {
-                    "name": "jrockowitz",
-                    "homepage": "https://www.drupal.org/user/371407"
+                    "name": "Jacob Rockowitz (jrockowitz)",
+                    "homepage": "https://www.drupal.org/u/jrockowitz",
+                    "role": "Maintainer"
                 }
             ],
             "description": "Provides status report message which encourage users or organizations to join the Drupal community, become a member of Drupal Association, and contribute back to Drupal.",
@@ -2251,7 +2247,8 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/contribute",
                 "issues": "https://www.drupal.org/project/issues/contribute"
-            }
+            },
+            "time": "2018-05-15T20:26:23+00:00"
         },
         {
             "name": "drupal/core",
@@ -10512,7 +10509,7 @@
         "drupal/block_class": 15,
         "drupal/coffee": 10,
         "drupal/context": 10,
-        "drupal/contribute": 10,
+        "drupal/contribute": 20,
         "drupal/exclude_node_title": 10,
         "drupal/field_collection": 15,
         "drupal/file_entity": 10,
