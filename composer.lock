@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e950438393ef9f0e89d0ce8046065188",
+    "content-hash": "8cd039011ea588384561114c7ba07c8c",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3507,53 +3507,6 @@
             }
         },
         {
-            "name": "drupal/imce",
-            "version": "1.6.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/imce",
-                "reference": "8.x-1.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/imce-8.x-1.6.zip",
-                "reference": "8.x-1.6",
-                "shasum": "973fc92959dc31b16e33114852b8c26ec050ba7c"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.6",
-                    "datestamp": "1499898842",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "ufku",
-                    "homepage": "https://www.drupal.org/user/9910"
-                }
-            ],
-            "description": "Provides a file manager supporting personal folders.",
-            "homepage": "https://drupal.org/project/imce",
-            "support": {
-                "source": "http://cgit.drupalcode.org/imce"
-            }
-        },
-        {
             "name": "drupal/instagram_api",
             "version": "1.0.0",
             "source": {
@@ -3770,52 +3723,6 @@
                 "issues": "http://drupal.org/project/issues/libraries",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
             }
-        },
-        {
-            "name": "drupal/livereload",
-            "version": "dev-1.x",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/livereload",
-                "reference": "223feb798d2af436818c3d8fd0b47718569ebd4b"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.x-dev",
-                    "datestamp": "1474009739",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Hydra",
-                    "homepage": "https://www.drupal.org/user/647364"
-                },
-                {
-                    "name": "tim.plunkett",
-                    "homepage": "https://www.drupal.org/user/241634"
-                }
-            ],
-            "description": "Enables and enhances use of LiveReload during development.",
-            "homepage": "https://www.drupal.org/project/livereload",
-            "support": {
-                "source": "http://cgit.drupalcode.org/livereload"
-            },
-            "time": "2016-09-16T07:05:23+00:00"
         },
         {
             "name": "drupal/media_entity",
@@ -10831,7 +10738,6 @@
         "drupal/file_entity": 10,
         "drupal/layout_plugin": 15,
         "drupal/libraries": 15,
-        "drupal/livereload": 20,
         "drupal/message": 5,
         "drupal/migrate_upgrade": 20,
         "drupal/quicktabs": 15,
