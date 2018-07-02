@@ -3837,18 +3837,18 @@
     },
     {
         "name": "drupal/field_group",
-        "version": "1.0.0",
-        "version_normalized": "1.0.0.0",
+        "version": "3.0.0-beta1",
+        "version_normalized": "3.0.0.0-beta1",
         "source": {
             "type": "git",
             "url": "https://git.drupal.org/project/field_group",
-            "reference": "8.x-1.0"
+            "reference": "8.x-3.0-beta1"
         },
         "dist": {
             "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/field_group-8.x-1.0.zip",
-            "reference": "8.x-1.0",
-            "shasum": "e8aa3fae5c3c5dec84644bb577996938d638a611"
+            "url": "https://ftp.drupal.org/files/projects/field_group-8.x-3.0-beta1.zip",
+            "reference": "8.x-3.0-beta1",
+            "shasum": "a5dfb66385be7a1b3db232e49779d5bc530a048e"
         },
         "require": {
             "drupal/core": "*"
@@ -3856,14 +3856,14 @@
         "type": "drupal-module",
         "extra": {
             "branch-alias": {
-                "dev-1.x": "1.x-dev"
+                "dev-3.x": "3.x-dev"
             },
             "drupal": {
-                "version": "8.x-1.0",
-                "datestamp": "1510352885",
+                "version": "8.x-3.0-beta1",
+                "datestamp": "1510352338",
                 "security-coverage": {
-                    "status": "covered",
-                    "message": "Covered by Drupal's security advisory policy"
+                    "status": "not-covered",
+                    "message": "Beta releases are not covered by Drupal security advisories."
                 }
             }
         },
@@ -4414,6 +4414,55 @@
         "homepage": "https://www.drupal.org/project/instagram_block",
         "support": {
             "source": "http://cgit.drupalcode.org/instagram_block"
+        }
+    },
+    {
+        "name": "drupal/instagram_without_api",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/instagram_without_api",
+            "reference": "8.x-1.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/instagram_without_api-8.x-1.0.zip",
+            "reference": "8.x-1.0",
+            "shasum": "4f76dc75a3d64a26ab0868e938360b5a31ad2570"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0",
+                "datestamp": "1529439820",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Project has not opted into security advisory coverage!"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "ThirstySix",
+                "homepage": "https://www.drupal.org/user/824886"
+            }
+        ],
+        "description": "Instagram block that displays images Without API.",
+        "homepage": "https://www.drupal.org/project/instagram_without_api",
+        "support": {
+            "source": "http://cgit.drupalcode.org/instagram_without_api"
         }
     },
     {
