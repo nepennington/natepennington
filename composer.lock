@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "50161a59f92be1d97716ddfc94851497",
+    "content-hash": "86fa24ac8243f84dec477e6bba3d2a3e",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3507,53 +3507,6 @@
             }
         },
         {
-            "name": "drupal/instagram_api",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/instagram_api",
-                "reference": "8.x-1.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/instagram_api-8.x-1.0.zip",
-                "reference": "8.x-1.0",
-                "shasum": "0c285610c954a498e49f1ddd03998fcaa7c6efa1"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0",
-                    "datestamp": "1524847384",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "dakku",
-                    "homepage": "https://www.drupal.org/user/97634"
-                }
-            ],
-            "description": "Instagram API for Drupal provides API access to Instagram.",
-            "homepage": "https://www.drupal.org/project/instagram_api",
-            "support": {
-                "source": "http://cgit.drupalcode.org/instagram_api"
-            }
-        },
-        {
             "name": "drupal/instagram_block",
             "version": "2.0.0-beta2",
             "source": {
@@ -3602,53 +3555,6 @@
             "homepage": "https://www.drupal.org/project/instagram_block",
             "support": {
                 "source": "http://cgit.drupalcode.org/instagram_block"
-            }
-        },
-        {
-            "name": "drupal/instagram_without_api",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/instagram_without_api",
-                "reference": "8.x-1.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/instagram_without_api-8.x-1.0.zip",
-                "reference": "8.x-1.0",
-                "shasum": "4f76dc75a3d64a26ab0868e938360b5a31ad2570"
-            },
-            "require": {
-                "drupal/core": "*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0",
-                    "datestamp": "1529439820",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "ThirstySix",
-                    "homepage": "https://www.drupal.org/user/824886"
-                }
-            ],
-            "description": "Instagram block that displays images Without API.",
-            "homepage": "https://www.drupal.org/project/instagram_without_api",
-            "support": {
-                "source": "http://cgit.drupalcode.org/instagram_without_api"
             }
         },
         {
