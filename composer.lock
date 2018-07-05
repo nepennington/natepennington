@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "content-hash": "86fa24ac8243f84dec477e6bba3d2a3e",
@@ -2247,8 +2247,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/contribute",
                 "issues": "https://www.drupal.org/project/issues/contribute"
-            },
-            "time": "2018-05-15T20:26:23+00:00"
+            }
         },
         {
             "name": "drupal/core",
@@ -4167,8 +4166,7 @@
             "homepage": "https://www.drupal.org/project/migrate_upgrade",
             "support": {
                 "source": "http://cgit.drupalcode.org/migrate_upgrade"
-            },
-            "time": "2018-06-11T17:15:25+00:00"
+            }
         },
         {
             "name": "drupal/module_filter",
@@ -5007,8 +5005,7 @@
             "homepage": "https://www.drupal.org/project/twitter",
             "support": {
                 "source": "http://cgit.drupalcode.org/twitter"
-            },
-            "time": "2018-06-06T15:21:02+00:00"
+            }
         },
         {
             "name": "drupal/twitter_block",
@@ -5334,8 +5331,7 @@
                 "issues": "https://www.drupal.org/project/issues/webform?version=8.x",
                 "docs": "https://www.drupal.org/docs/8/modules/webform",
                 "forum": "https://drupal.stackexchange.com/questions/tagged/webform"
-            },
-            "time": "2018-06-21T12:49:48+00:00"
+            }
         },
         {
             "name": "drupal/yoast_seo",
